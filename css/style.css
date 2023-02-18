@@ -1,0 +1,301 @@
+:root {
+  --button-background: #2f303a;
+  --body-color: rgba(117, 117, 117, 1);
+  --blue-color: #2196f3;
+  --blacklight-color: #212121;
+  --black-color: rgba(0, 0, 0, 1);
+  --grey-color: #757575;
+  --white-color: #ffffff;
+  --whitelight-color: #f5f4fa;
+  --red-color: red;
+  --whitestudio-color: rgba(255, 255, 255, 1);
+  --footercolor: #2f303a;
+  --color-body: #e5e5e5;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  background-color: var(--whitestudio-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+body {
+  background-color: var(--color-body);
+}
+.main-page,
+.portfolio {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--body-color);
+}
+
+.button1:hover,
+.button1:focus {
+  background: var(--button-background);
+}
+
+.mail:hover,
+.mail-down:hover,
+.mail-down:focus,
+.tel:hover,
+.tel:focus,
+.tel-down:focus,
+.tel-down:hover {
+  color: var(--red-color);
+}
+.mail-page1:hover,
+.mail-page1-down:hover {
+  color: var(--blue-color);
+}
+.studio {
+  color: var(--blacklight-color);
+}
+.studio1 {
+  color: var(--blacklight-color);
+}
+.studio:hover,
+.studio1:hover,
+.color-black:hover,
+.nav-black:hover {
+  color: var(--blue-color);
+  cursor: pointer;
+  font-weight: 500;
+}
+.color-black {
+  color: var(--blacklight-color);
+}
+.tel,
+.tel-down,
+.mail-down,
+.mail-page1,
+.mail-page1-down {
+  color: var(--grey-color);
+}
+
+h2 {
+  color: var(--blacklight-color);
+  font-weight: 700;
+}
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+h5,
+.size {
+  font-size: 14px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--grey-color);
+  font-weight: 400;
+}
+.name-black {
+  color: var(--blacklight-color);
+  font-weight: 500;
+}
+.line-high {
+  line-height: 16px;
+  color: var(--blacklight-color);
+  font-weight: 700;
+}
+
+.line-low {
+  line-height: 24px;
+  color: var(--grey-color);
+  font-weight: 400;
+}
+.button1 {
+  color: var(--white-color);
+  background: var(--blue-color);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.button {
+  font-weight: 700;
+}
+.title_h1 {
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 44px;
+  padding-top: 200px;
+  text-align: center;
+}
+address {
+  font-weight: 400;
+}
+.blue {
+  color: var(--blue-color);
+}
+.black {
+  color: var(--black-color);
+}
+.white {
+  color: var(--whitestudio-color);
+}
+.nav-black {
+  color: var(--blacklight-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.color-blue {
+  color: var(--blue-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.tel-page2 .mail-page2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.filter1 > .botton-filter:hover,
+.filter2 > .botton-filter:hover,
+.filter3 > .botton-filter:hover,
+.filter4 > .botton-filter:hover,
+.filter5 > .botton-filter:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  background: var(--blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.filter1,
+.filter2,
+.filter3,
+.filter4,
+.filter5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--blacklight-color);
+  background: var(--white-color);
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--blacklight-color);
+  border-radius: 4px;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+footer {
+  background: var(--footercolor);
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.filterss {
+  justify-content: center;
+  margin-top: 50px;
+}
+.projet1,
+.projet2,
+.projet3 {
+  border: 1px solid #eeeeee;
+  margin-top: 30px;
+}
+.projet4,
+.projet5,
+.projet6,
+.projet7,
+.projet8,
+.projet9 {
+  background-color: var(--white-color);
+  border: 1px solid #eeeeee;
+  margin-top: 30px;
+}
+.webstudio2 {
+  margin-bottom: 9px;
+  padding-top: 60px;
+}
+.botton-filter {
+  width: 121px;
+  height: 38px;
+  border-radius: 4px;
+}
+.space_footerp {
+  margin-top: 9px;
+}
+footer {
+  height: 252px;
+}
+.mail-page1-down {
+  margin-top: 9px;
+}
+.tel-down {
+  margin-top: 9px;
+}
+.our_team_name {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.space_team {
+  margin-top: 30px;
+}
+
+.what_we_do_title {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.feature1 {
+  display: inline-block;
+}
+.feature2,
+.feature3,
+.feature4 {
+  justify-content: space-around;
+}
+.title_index {
+  height: 600px;
+  background: var(--button-background);
+}
+a {
+  text-decoration: none;
+}
+.what_we_do {
+  justify-content: space-around;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.width {
+  margin: auto;
+  width: 1200px;
+}
+.our_strengths {
+  margin-top: 50px;
+}
+.space1 {
+  margin-left: 10px;
+}
