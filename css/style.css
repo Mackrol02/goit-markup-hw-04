@@ -299,3 +299,9 @@ header {
 .space1 {
   margin-left: 10px;
 }
+.linkedin {
+  fill: var(--grey-color);
+}
+.linkedin:hover {
+  fill: var(--blue-color);
+}
