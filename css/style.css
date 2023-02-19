@@ -11,6 +11,7 @@
   --whitestudio-color: rgba(255, 255, 255, 1);
   --footercolor: #2f303a;
   --color-body: #e5e5e5;
+  --color-icon: #afb1b8;
 }
 .card1,
 .card2,
@@ -205,6 +206,7 @@ address {
 }
 footer {
   background: var(--footercolor);
+  display: flex;
 }
 .container {
   display: flex;
@@ -258,6 +260,7 @@ footer {
 }
 .space_team {
   margin-top: 30px;
+  text-align: center;
 }
 
 .what_we_do_title {
@@ -277,6 +280,12 @@ footer {
 .title_index {
   height: 600px;
   background: var(--button-background);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.2)
+  );
+  background-image: url(https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1677456000&Signature=XudVUnnTQCyKGCQeMhuM5dOQIeXCU5ufMyNGJftJ0i8u3dCvxSuSQZw7KLZ1KJNMCv4Ppsa0DkahB8GJnijkQlAMaLbs9OKNXvxGUtXc5Ap3bagyKe27Strq19qJu24KupYaSFYft7V~MbpqHLjquQ4mS4L9-yzeZZF36CmWlHc1cxcAFR1QN~Oc6wnb6-WcU7K7VKbIA8TaMlN40spXhB6vTGAV7mk2D48ScDd57Z3fK9UY~NFb3cA58HTImqOQzhd9L7AVWB80Ty2yT97s8NqN2KcDsA3Bbi6mfkWNB6tzZ~z5l15ljnfvDDqs7L0dz8xwjPlzMgVvnrpT8Zqjzg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
 }
 a {
   text-decoration: none;
@@ -302,6 +311,61 @@ header {
 .linkedin {
   fill: var(--grey-color);
 }
-.linkedin:hover {
+.linkedin:hover,
+.antenna:hover {
   fill: var(--blue-color);
+}
+
+.antenna,
+.clock,
+.diagram,
+.astronaut {
+  fill: solid var(--whitelight-color);
+}
+.box-flex {
+  display: flex;
+}
+.footer-list {
+  margin-left: 30px;
+}
+.name-logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.smartphon,
+.envelope {
+  margin-right: 10px;
+  fill: solid var(--grey-color);
+}
+.smartphon:hover,
+.envelope:hover {
+  fill: var(--blue-color) solid;
+}
+.social-list {
+  justify-content: space-between;
+}
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.linkedin,
+.facebook,
+.twitter,
+.instagram {
+  fill: Solid #afb1b8;
+}
+.my-client {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.footer-name {
+  color: var(--white-color);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.client {
+  border: var(--color-icon) solid 1px;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
