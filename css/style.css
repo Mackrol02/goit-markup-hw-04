@@ -65,6 +65,9 @@ body {
   cursor: pointer;
   font-weight: 500;
 }
+.size {
+  font-size: 14px;
+}
 .color-black {
   color: var(--blacklight-color);
 }
@@ -144,7 +147,7 @@ address {
 .nav-black {
   color: var(--blacklight-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
@@ -325,7 +328,8 @@ header {
   display: flex;
 }
 .footer-list {
-  margin-left: 30px;
+  margin-left: 70px;
+  margin-top: 72px;
 }
 .name-logo {
   text-align: center;
@@ -334,11 +338,11 @@ header {
 .smartphon,
 .envelope {
   margin-right: 10px;
-  --color1: var(--grey-color);
+  --color3: var(--grey-color);
 }
 .smartphon:hover,
 .envelope:hover {
-  --color1: var(--blue-color);
+  --color3: var(--blue-color);
 }
 .linkedin,
 .facebook,
@@ -364,13 +368,13 @@ header {
   --color2: var(--color-icon);
   --color1: var(--white-color);
 }
-.linkedin-list:hover,
+/*.linkedin-list:hover,
 .facebook-list:hover,
 .twitter-list:hover,
 .instagram-list:hover {
   --color2: var(--white-color);
   --color1: var(--blue-color);
-}
+}*/
 .social-list {
   justify-content: space-between;
 }
